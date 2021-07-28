@@ -1,0 +1,32 @@
+/*-----------
+    Fonts 
+------------*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/*---------------------------
+  common-styles or utilites
+ --------------------------*/
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/*--------------
+  custom-styles
+ --------------*/
+
+.header-background{
+    background-color: #264653;
+}
+.orange-button{
+    background-color: #E76F51 ;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 10px;
+    color:white;
+}
+.img-grayscale{
+    filter: grayscale(100%);
+}
+.orange-text{
+    color: #E76F51;
+}
