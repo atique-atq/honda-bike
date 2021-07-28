@@ -54,16 +54,53 @@
 
             <!-- Header Banner -->
             <section>
-                <div class="container">
+                <div class="container pb-5">
                     <div class="row">
                         <div class="col-lg-6">
                             <p class="text-white">Computer-controlled digital transistorized with electronic advance</p>
                             <h1 class="fw-bold text-white">Honda CBR 300R</h1>
-                            <p class="text-white">The 2021 Honda CBR150R has been launched in Indonesia. The updated
+                            <p class="text-white pb-3">The 2021 Honda CBR150R has been launched in Indonesia. The
+                                updated
                                 model comes with a
                                 much more
                                 aggressive bodywork with a more premium Showa SFF-BP similar to the Honda CBR250RR</p>
-                            <button class="orange-button">Purchase</button>
+                            <button class="orange-button" data-bs-toggle="modal"
+                                data-bs-target="#purchaseModal">Purchase</button>
+                            <!-- Modal -->
+                            <div class="modal fade" id="purchaseModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-scrollable">
+                                    <div class=" modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title text-danger fw-bold" id="exampleModalLabel">Terms and
+                                                Conditions</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            Before purchase please read the terms and conditions very carefully. In case
+                                            of any violations of these terms and conditions, <strong>you wont be able to
+                                                claim any further warrenty.</strong>
+                                            <h6 class="pt-3">1. Official warrenty is not valid if you buy from any <span
+                                                    class="text-danger">third party online market place like <span
+                                                        class="fw-bold fs-6 text-danger">Evaly, Dhamaka, Alishamart
+                                                        etc.</span> </span> </h6>
+                                            <h6 class="pt-3">2. Bring your bike at our service center as per
+                                                manual.<span class="text-danger"> In case of any abberation, your
+                                                    warrenty will be invalid. </span></h6>
+                                            <h6 class="pt-3">3. Only use Honda Oil Lubricant and Oil filter.</h6>
+                                            <h6 class="pt-3">4. Only use Honda Spare parts.</h6>
+                                            <h6 class="pt-3">5. Please read detials from manuals</h6>
+
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-bs-dismiss="modal">Close</button>
+                                            <button type="button" class="btn btn-primary">Accept</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                         <div class="col-lg-6">
                             <img src="images/header-bike.png" alt="">
